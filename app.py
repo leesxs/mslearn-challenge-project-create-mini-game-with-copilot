@@ -1,11 +1,3 @@
-# o código abaixo não está sendo executado ao digitar "python app.py" no terminal
-# para executar, é necessário importar a função jogar_pedra_papel_tesoura() no arquivo app.py
-# e chamar a função jogar_pedra_papel_tesoura() no arquivo app.py
-
-# importe a função jogar_pedra_papel_tesoura() no arquivo app.py e chame a função jogar_pedra_papel_tesoura() no arquivo app.py
-# para executar o jogo pedra, papel e tesoura
-
-
 import random
 
 def jogar_pedra_papel_tesoura():
