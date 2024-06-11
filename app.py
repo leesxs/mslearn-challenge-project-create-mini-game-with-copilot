@@ -27,7 +27,7 @@ def jogar_pedra_papel_tesoura():
 
         continuar = input("Deseja jogar novamente? (sim/não): ").lower()
         if continuar != "sim":
-            print(f"\nEstatísticas finais:\nVitórias: {estatisticas['vitorias']}\nDerrotas: {estatisticas['derrotas']}\nEmpates: {estatisticas['empates']}")
+            print(f"\nEstatísticas finais:\nVitórias: {estatisticas['vitorias']}\nDerrotas: {estatisticas['derrotas']}\nEmpates: {estatisticas['empates']}\nTotal de partidas: {estatisticas['vitorias'] + estatisticas['derrotas'] + estatisticas['empates']}")
             break
 
 jogar_pedra_papel_tesoura()
